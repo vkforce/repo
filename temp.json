@@ -1,0 +1,2 @@
+
+{  "invalidCatalogues":[  {  "Name":"testwidget3",  "Path":"Global",  "ErrorMessage":"invalidname"  } ],  "newCatalogues":[  {  "Name":"testwidget13",  "Path":"Global"  } ],  "updateCatalogues": [  {  "Name":"testwidget3",  "Path":"Global"  }  ]}
