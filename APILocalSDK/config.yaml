@@ -1,0 +1,13 @@
+Global:
+  GRANT_TYPE: 'client_credentials'
+  SCOPE: '*'
+  AUDIENCE: 'https://admin.fone.com'
+DEV:
+  HOST: 'https://portal.dev.forcepointone.com'
+  INSIGHTS_HOST: 'https://portal-new.insights.dev.forcepointone.com'
+  CLIENT_ID: '01ec7292-f7fb-4f6f-94eb-89f54a5d7184'
+  CLIENT_SECRET: 'snJQuiCeiVXIPVZhEBgg_ojAXr3zhcbLxjEaYi1HyPE='
+PERF:
+  HOST: 'https://portal.dev.forcepointone.com'
+  CLIENT_ID: '0a22872d-7b15-4b8d-9662-4e764b17f7cd'
+  CLIENT_SECRET: 'nSNVEz6K-DA7Cii97lE3WeWnR2BZb3yqO0AF3Xhkcd8='

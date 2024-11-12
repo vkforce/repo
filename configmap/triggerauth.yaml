@@ -1,0 +1,15 @@
+apiVersion: keda.sh/v1alpha1
+kind: TriggerAuthentication
+metadata:
+  name: rabbitmq-trigger-auth
+spec:
+  configMapTargetRef:
+  - parameter: host
+    name: my-keda-config
+    key: rabbitmq-host
+  - parameter: queueName
+    name: my-keda-config 
+    key: rabbitmq-queue-name
+  - parameter: queueLength
+    name: my-keda-config
+    key: rabbitmq-queue-length
